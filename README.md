@@ -1,6 +1,7 @@
 Supported tags and respective `Dockerfile` links
 ================================================
 
+  * `v1`, `v1.11`, `v1.11.33.3` and similar are tagged versions of Nginx PageSpeed (with a compatible Nginx).
   * [`latest` (Dockerfile)](https://github.com/wernight/docker-alpine-nginx-pagespeed/blob/master/Dockerfile) [![](https://images.microbadger.com/badges/image/wernight/alpine-nginx-pagespeed.svg)](https://microbadger.com/images/wernight/alpine-nginx-pagespeed "Get your own image badge on microbadger.com")
 
 
