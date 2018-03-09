@@ -107,7 +107,7 @@ RUN set -x && \
     # forward request and error logs to docker log collector
     ln -sf /dev/stdout /var/log/nginx/access.log && \
     ln -sf /dev/stderr /var/log/nginx/error.log && \
-    # Make PageSpeed cache writabl:
+    # Make PageSpeed cache writable:
     mkdir -p /var/cache/ngx_pagespeed && \
     chmod -R o+wr /var/cache/ngx_pagespeed
 
